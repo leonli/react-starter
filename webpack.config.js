@@ -26,7 +26,8 @@ var config = {
   module: {
     loaders: [
       { test: /\.(jpe?g|png|gif|svg)$/, loader: 'file' },
-      { test: /\.js$/, exclude: /node_modules/, loaders: ['react-hot', 'babel?stage=0&optional=runtime&plugins=typecheck']}
+      { test: /\.js$/, exclude: /node_modules/, loaders: ['react-hot', 'babel?stage=0&optional=runtime&plugins=typecheck']},
+      { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' }
     ]
   }
 };

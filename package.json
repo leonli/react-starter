@@ -45,7 +45,8 @@
     "react-tools": "^0.12.2",
     "webpack": "^1.10.3",
     "webpack-dev-server": "^1.9.0",
-    "style-loader": "^0.12.3"
+    "style-loader": "^0.12.3",
+    "stylus-loader": "1.2.1"
   },
   "engines": {
     "node": ">=0.10.32"
